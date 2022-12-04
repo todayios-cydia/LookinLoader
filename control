@@ -1,0 +1,16 @@
+Package: com.todayios-cydia.lookinloader
+Name: LookinLoader
+Version: 1.0.0
+Description: Lookin 加载插件
+Depiction: https://todayios-cydia.github.io/cydia/depictions/?p=com.todayios-cydia.lookinloader
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: manajay
+dev: 
+Homepage: https://todayios-cydia.github.io/cydia/
+Maintainer: manajay <me@todayios.com>
+
