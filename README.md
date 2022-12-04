@@ -16,9 +16,9 @@
 ## 使用
 
 打开设置页, 找到 LookinLoader，进入 Manage Apps, 选择要你想要调试的程序, 打开开关。
-![](./snapshot/settings-01.png)
-![](./snapshot/settings-02.png)
-![](./snapshot/settings-03.png)
+![](./snapshots/settings-01.png)
+![](./snapshots/settings-02.png)
+![](./snapshots/settings-03.png)
 
 启动对应的应用，查看 Mac 端的 Lookin 是否显示应用首页,
 如果还不出现, 大概率是iOS14 之后的App, 需要本地网络访问权限开关
@@ -28,7 +28,7 @@
 
 ## 效果
 
-![](./snapshot/screenshot.jpg)
+![](./snapshots/screenshot.jpg)
 
 
 ## issue
