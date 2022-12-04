@@ -109,7 +109,7 @@
 }
 
 -(void)_reallyRespring{
-    NSURL *relaunchURL = [NSURL URLWithString:[NSString stringWithFormat:@"prefs:root=%@",BUNDLE_PATH]];
+    NSURL *relaunchURL = [NSURL URLWithString:[NSString stringWithFormat:@"prefs:root=%@",TWEAK_NAME]];
     SBSRelaunchAction *restartAction = [NSClassFromString(@"SBSRelaunchAction") actionWithReason:@"RestartRenderServer" options:4 targetURL:relaunchURL];
     [[NSClassFromString(@"FBSSystemService") sharedService] sendActions:[NSSet setWithObject:restartAction] withResult:nil];
 }
