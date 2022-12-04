@@ -39,13 +39,13 @@
 %ctor{
 
 	@autoreleasepool {
-		NSDictionary *pref = [NSDictionary dictionaryWithContentsOfFile:@"/User/Library/Preferences/com.todayios-cydia.woodpecker.plist"];
+		NSDictionary *pref = [NSDictionary dictionaryWithContentsOfFile:@"/User/Library/Preferences/com.todayios-cydia.lookinloader.plist"];
 	
 		NSString *bundleIdentifier = [[NSBundle mainBundle] bundleIdentifier];
 		NSArray *selectedApplications = [pref objectForKey:@"selectedApplications"];
 
 		BOOL appEnabled = [selectedApplications containsObject:bundleIdentifier];
-		HBLogDebug(@"WoodPecker selectedApplications:%@ contains %@", selectedApplications, bundleIdentifier);
+		HBLogDebug(@"LookinLoader selectedApplications:%@ contains %@", selectedApplications, bundleIdentifier);
 		if (appEnabled) {
 			NSFileManager* fileManager = [NSFileManager defaultManager];
 			NSString *libPath = @"/Library/Application Support/LookinLoader/LookinServer.framework/LookinServer";
